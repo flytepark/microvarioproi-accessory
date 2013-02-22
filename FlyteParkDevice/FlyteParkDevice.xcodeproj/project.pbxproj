@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D05D3C151646FA0073ADEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D05D3B151646FA0073ADEB /* Foundation.framework */; };
+		04D05D47151646FA0073ADEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D05D46151646FA0073ADEB /* UIKit.framework */; };
+		04D05D48151646FA0073ADEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D05D3B151646FA0073ADEB /* Foundation.framework */; };
+		04D05D4A151646FA0073ADEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D05D49151646FA0073ADEB /* CoreGraphics.framework */; };
+		04D05D4D151646FA0073ADEB /* libFlyteParkDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D05D38151646FA0073ADEB /* libFlyteParkDevice.a */; };
+		04D05D53151646FA0073ADEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D05D51151646FA0073ADEB /* InfoPlist.strings */; };
+		04D05D56151646FA0073ADEB /* FlyteParkDeviceTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 04D05D55151646FA0073ADEB /* FlyteParkDeviceTests.h */; };
+		04D05D58151646FA0073ADEB /* FlyteParkDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D05D57151646FA0073ADEB /* FlyteParkDeviceTests.m */; };
+		04D05D6B151647210073ADEB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D05D6A151647210073ADEB /* CoreData.framework */; };
+		04D05D6D1516472B0073ADEB /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D05D6C1516472B0073ADEB /* ExternalAccessory.framework */; };
+		04D05D791516631E0073ADEB /* BinaryUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D05D6E1516631E0073ADEB /* BinaryUtility.h */; };
+		04D05D7A1516631E0073ADEB /* BinaryUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D05D6F1516631E0073ADEB /* BinaryUtility.m */; };
+		04D05D7B1516631E0073ADEB /* EADevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D05D701516631E0073ADEB /* EADevice.h */; };
+		04D05D7C1516631E0073ADEB /* EADevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D05D711516631E0073ADEB /* EADevice.m */; };
+		04D05D7D1516631E0073ADEB /* VarioComm.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D05D721516631E0073ADEB /* VarioComm.h */; };
+		04D05D7E1516631E0073ADEB /* VarioDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D05D731516631E0073ADEB /* VarioDevice.h */; };
+		04D05D7F1516631E0073ADEB /* VarioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D05D741516631E0073ADEB /* VarioDevice.m */; };
+		04D05D801516631E0073ADEB /* VarioLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D05D751516631E0073ADEB /* VarioLog.h */; };
+		04D05D811516631E0073ADEB /* VarioLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D05D761516631E0073ADEB /* VarioLog.m */; };
+		04D05D821516631E0073ADEB /* VarioOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D05D771516631E0073ADEB /* VarioOptions.h */; };
+		04D05D831516631E0073ADEB /* VarioOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D05D781516631E0073ADEB /* VarioOptions.m */; };
+		3088D49716D7AB7F00B3F6CB /* Unit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3088D49416D7AB7F00B3F6CB /* Unit.h */; };
+		3088D49816D7AB7F00B3F6CB /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3088D49516D7AB7F00B3F6CB /* Unit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D05D4B151646FA0073ADEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D05D2F151646FA0073ADEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D05D37151646FA0073ADEB;
+			remoteInfo = FlyteParkDevice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D05D38151646FA0073ADEB /* libFlyteParkDevice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFlyteParkDevice.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D05D3B151646FA0073ADEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04D05D3F151646FA0073ADEB /* FlyteParkDevice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyteParkDevice-Prefix.pch"; sourceTree = "<group>"; };
+		04D05D45151646FA0073ADEB /* FlyteParkDeviceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyteParkDeviceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D05D46151646FA0073ADEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04D05D49151646FA0073ADEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04D05D50151646FA0073ADEB /* FlyteParkDeviceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyteParkDeviceTests-Info.plist"; sourceTree = "<group>"; };
+		04D05D52151646FA0073ADEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04D05D54151646FA0073ADEB /* FlyteParkDeviceTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyteParkDeviceTests-Prefix.pch"; sourceTree = "<group>"; };
+		04D05D55151646FA0073ADEB /* FlyteParkDeviceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyteParkDeviceTests.h; sourceTree = "<group>"; };
+		04D05D57151646FA0073ADEB /* FlyteParkDeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyteParkDeviceTests.m; sourceTree = "<group>"; };
+		04D05D6A151647210073ADEB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04D05D6C1516472B0073ADEB /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		04D05D6E1516631E0073ADEB /* BinaryUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryUtility.h; sourceTree = "<group>"; };
+		04D05D6F1516631E0073ADEB /* BinaryUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryUtility.m; sourceTree = "<group>"; };
+		04D05D701516631E0073ADEB /* EADevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EADevice.h; sourceTree = "<group>"; };
+		04D05D711516631E0073ADEB /* EADevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EADevice.m; sourceTree = "<group>"; };
+		04D05D721516631E0073ADEB /* VarioComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarioComm.h; sourceTree = "<group>"; };
+		04D05D731516631E0073ADEB /* VarioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarioDevice.h; sourceTree = "<group>"; };
+		04D05D741516631E0073ADEB /* VarioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarioDevice.m; sourceTree = "<group>"; };
+		04D05D751516631E0073ADEB /* VarioLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarioLog.h; sourceTree = "<group>"; };
+		04D05D761516631E0073ADEB /* VarioLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarioLog.m; sourceTree = "<group>"; };
+		04D05D771516631E0073ADEB /* VarioOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarioOptions.h; sourceTree = "<group>"; };
+		04D05D781516631E0073ADEB /* VarioOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarioOptions.m; sourceTree = "<group>"; };
+		3088D49416D7AB7F00B3F6CB /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		3088D49516D7AB7F00B3F6CB /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
+		3088D49C16D7B1B500B3F6CB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D05D35151646FA0073ADEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D05D6D1516472B0073ADEB /* ExternalAccessory.framework in Frameworks */,
+				04D05D6B151647210073ADEB /* CoreData.framework in Frameworks */,
+				04D05D3C151646FA0073ADEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D05D41151646FA0073ADEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D05D47151646FA0073ADEB /* UIKit.framework in Frameworks */,
+				04D05D48151646FA0073ADEB /* Foundation.framework in Frameworks */,
+				04D05D4A151646FA0073ADEB /* CoreGraphics.framework in Frameworks */,
+				04D05D4D151646FA0073ADEB /* libFlyteParkDevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A820D41516693A00711695 /* Vario */ = {
+			isa = PBXGroup;
+			children = (
+				3088D49416D7AB7F00B3F6CB /* Unit.h */,
+				3088D49516D7AB7F00B3F6CB /* Unit.m */,
+				04D05D6E1516631E0073ADEB /* BinaryUtility.h */,
+				04D05D6F1516631E0073ADEB /* BinaryUtility.m */,
+				04D05D701516631E0073ADEB /* EADevice.h */,
+				04D05D711516631E0073ADEB /* EADevice.m */,
+				04D05D721516631E0073ADEB /* VarioComm.h */,
+				04D05D731516631E0073ADEB /* VarioDevice.h */,
+				04D05D741516631E0073ADEB /* VarioDevice.m */,
+				04D05D751516631E0073ADEB /* VarioLog.h */,
+				04D05D761516631E0073ADEB /* VarioLog.m */,
+				04D05D771516631E0073ADEB /* VarioOptions.h */,
+				04D05D781516631E0073ADEB /* VarioOptions.m */,
+			);
+			name = Vario;
+			sourceTree = "<group>";
+		};
+		04D05D2D151646FA0073ADEB = {
+			isa = PBXGroup;
+			children = (
+				04D05D6C1516472B0073ADEB /* ExternalAccessory.framework */,
+				04D05D6A151647210073ADEB /* CoreData.framework */,
+				04D05D3D151646FA0073ADEB /* FlyteParkDevice */,
+				04D05D4E151646FA0073ADEB /* FlyteParkDeviceTests */,
+				04D05D3A151646FA0073ADEB /* Frameworks */,
+				04D05D39151646FA0073ADEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D05D39151646FA0073ADEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D05D38151646FA0073ADEB /* libFlyteParkDevice.a */,
+				04D05D45151646FA0073ADEB /* FlyteParkDeviceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D05D3A151646FA0073ADEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D05D3B151646FA0073ADEB /* Foundation.framework */,
+				04D05D46151646FA0073ADEB /* UIKit.framework */,
+				04D05D49151646FA0073ADEB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04D05D3D151646FA0073ADEB /* FlyteParkDevice */ = {
+			isa = PBXGroup;
+			children = (
+				04A820D41516693A00711695 /* Vario */,
+				04D05D3E151646FA0073ADEB /* Supporting Files */,
+			);
+			path = FlyteParkDevice;
+			sourceTree = "<group>";
+		};
+		04D05D3E151646FA0073ADEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D05D3F151646FA0073ADEB /* FlyteParkDevice-Prefix.pch */,
+				3088D49C16D7B1B500B3F6CB /* LICENSE.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04D05D4E151646FA0073ADEB /* FlyteParkDeviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				04D05D55151646FA0073ADEB /* FlyteParkDeviceTests.h */,
+				04D05D57151646FA0073ADEB /* FlyteParkDeviceTests.m */,
+				04D05D4F151646FA0073ADEB /* Supporting Files */,
+			);
+			path = FlyteParkDeviceTests;
+			sourceTree = "<group>";
+		};
+		04D05D4F151646FA0073ADEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D05D50151646FA0073ADEB /* FlyteParkDeviceTests-Info.plist */,
+				04D05D51151646FA0073ADEB /* InfoPlist.strings */,
+				04D05D54151646FA0073ADEB /* FlyteParkDeviceTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04D05D36151646FA0073ADEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D05D791516631E0073ADEB /* BinaryUtility.h in Headers */,
+				04D05D7B1516631E0073ADEB /* EADevice.h in Headers */,
+				04D05D7D1516631E0073ADEB /* VarioComm.h in Headers */,
+				04D05D7E1516631E0073ADEB /* VarioDevice.h in Headers */,
+				04D05D801516631E0073ADEB /* VarioLog.h in Headers */,
+				04D05D821516631E0073ADEB /* VarioOptions.h in Headers */,
+				3088D49716D7AB7F00B3F6CB /* Unit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04D05D37151646FA0073ADEB /* FlyteParkDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D05D5B151646FA0073ADEB /* Build configuration list for PBXNativeTarget "FlyteParkDevice" */;
+			buildPhases = (
+				04D05D34151646FA0073ADEB /* Sources */,
+				04D05D35151646FA0073ADEB /* Frameworks */,
+				04D05D36151646FA0073ADEB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyteParkDevice;
+			productName = FlyteParkDevice;
+			productReference = 04D05D38151646FA0073ADEB /* libFlyteParkDevice.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		04D05D44151646FA0073ADEB /* FlyteParkDeviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D05D5E151646FA0073ADEB /* Build configuration list for PBXNativeTarget "FlyteParkDeviceTests" */;
+			buildPhases = (
+				04D05D40151646FA0073ADEB /* Sources */,
+				04D05D41151646FA0073ADEB /* Frameworks */,
+				04D05D42151646FA0073ADEB /* Resources */,
+				04D05D43151646FA0073ADEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D05D4C151646FA0073ADEB /* PBXTargetDependency */,
+			);
+			name = FlyteParkDeviceTests;
+			productName = FlyteParkDeviceTests;
+			productReference = 04D05D45151646FA0073ADEB /* FlyteParkDeviceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D05D2F151646FA0073ADEB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 04D05D32151646FA0073ADEB /* Build configuration list for PBXProject "FlyteParkDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04D05D2D151646FA0073ADEB;
+			productRefGroup = 04D05D39151646FA0073ADEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D05D37151646FA0073ADEB /* FlyteParkDevice */,
+				04D05D44151646FA0073ADEB /* FlyteParkDeviceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D05D42151646FA0073ADEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D05D53151646FA0073ADEB /* InfoPlist.strings in Resources */,
+				04D05D56151646FA0073ADEB /* FlyteParkDeviceTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04D05D43151646FA0073ADEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D05D34151646FA0073ADEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D05D7A1516631E0073ADEB /* BinaryUtility.m in Sources */,
+				04D05D7C1516631E0073ADEB /* EADevice.m in Sources */,
+				04D05D7F1516631E0073ADEB /* VarioDevice.m in Sources */,
+				04D05D811516631E0073ADEB /* VarioLog.m in Sources */,
+				04D05D831516631E0073ADEB /* VarioOptions.m in Sources */,
+				3088D49816D7AB7F00B3F6CB /* Unit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D05D40151646FA0073ADEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D05D58151646FA0073ADEB /* FlyteParkDeviceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D05D4C151646FA0073ADEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D05D37151646FA0073ADEB /* FlyteParkDevice */;
+			targetProxy = 04D05D4B151646FA0073ADEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04D05D51151646FA0073ADEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D05D52151646FA0073ADEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D05D59151646FA0073ADEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04D05D5A151646FA0073ADEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		04D05D5C151646FA0073ADEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				DSTROOT = /tmp/FlyteParkDevice.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyteParkDevice/FlyteParkDevice-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv6 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		04D05D5D151646FA0073ADEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				DSTROOT = /tmp/FlyteParkDevice.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyteParkDevice/FlyteParkDevice-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv6 armv7 armv7s";
+			};
+			name = Release;
+		};
+		04D05D5F151646FA0073ADEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyteParkDeviceTests/FlyteParkDeviceTests-Prefix.pch";
+				INFOPLIST_FILE = "FlyteParkDeviceTests/FlyteParkDeviceTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		04D05D60151646FA0073ADEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyteParkDeviceTests/FlyteParkDeviceTests-Prefix.pch";
+				INFOPLIST_FILE = "FlyteParkDeviceTests/FlyteParkDeviceTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D05D32151646FA0073ADEB /* Build configuration list for PBXProject "FlyteParkDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D05D59151646FA0073ADEB /* Debug */,
+				04D05D5A151646FA0073ADEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D05D5B151646FA0073ADEB /* Build configuration list for PBXNativeTarget "FlyteParkDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D05D5C151646FA0073ADEB /* Debug */,
+				04D05D5D151646FA0073ADEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D05D5E151646FA0073ADEB /* Build configuration list for PBXNativeTarget "FlyteParkDeviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D05D5F151646FA0073ADEB /* Debug */,
+				04D05D60151646FA0073ADEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D05D2F151646FA0073ADEB /* Project object */;
+}
