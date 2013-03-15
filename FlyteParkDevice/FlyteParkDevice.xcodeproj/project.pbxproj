@@ -45,13 +45,11 @@
 /* Begin PBXFileReference section */
 		04D05D38151646FA0073ADEB /* libFlyteParkDevice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFlyteParkDevice.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D05D3B151646FA0073ADEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		04D05D3F151646FA0073ADEB /* FlyteParkDevice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyteParkDevice-Prefix.pch"; sourceTree = "<group>"; };
 		04D05D45151646FA0073ADEB /* FlyteParkDeviceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyteParkDeviceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D05D46151646FA0073ADEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04D05D49151646FA0073ADEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		04D05D50151646FA0073ADEB /* FlyteParkDeviceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyteParkDeviceTests-Info.plist"; sourceTree = "<group>"; };
 		04D05D52151646FA0073ADEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		04D05D54151646FA0073ADEB /* FlyteParkDeviceTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyteParkDeviceTests-Prefix.pch"; sourceTree = "<group>"; };
 		04D05D55151646FA0073ADEB /* FlyteParkDeviceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyteParkDeviceTests.h; sourceTree = "<group>"; };
 		04D05D57151646FA0073ADEB /* FlyteParkDeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyteParkDeviceTests.m; sourceTree = "<group>"; };
 		04D05D6A151647210073ADEB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -69,7 +67,6 @@
 		04D05D781516631E0073ADEB /* VarioOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarioOptions.m; sourceTree = "<group>"; };
 		3088D49416D7AB7F00B3F6CB /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
 		3088D49516D7AB7F00B3F6CB /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
-		3088D49C16D7B1B500B3F6CB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +157,6 @@
 		04D05D3E151646FA0073ADEB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				04D05D3F151646FA0073ADEB /* FlyteParkDevice-Prefix.pch */,
-				3088D49C16D7B1B500B3F6CB /* LICENSE.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,7 +176,6 @@
 			children = (
 				04D05D50151646FA0073ADEB /* FlyteParkDeviceTests-Info.plist */,
 				04D05D51151646FA0073ADEB /* InfoPlist.strings */,
-				04D05D54151646FA0073ADEB /* FlyteParkDeviceTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -375,8 +369,8 @@
 					armv6,
 				);
 				DSTROOT = /tmp/FlyteParkDevice.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlyteParkDevice/FlyteParkDevice-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv6 armv7 armv7s";
@@ -392,8 +386,8 @@
 					armv6,
 				);
 				DSTROOT = /tmp/FlyteParkDevice.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlyteParkDevice/FlyteParkDevice-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv6 armv7 armv7s";
@@ -408,7 +402,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "FlyteParkDeviceTests/FlyteParkDeviceTests-Prefix.pch";
 				INFOPLIST_FILE = "FlyteParkDeviceTests/FlyteParkDeviceTests-Info.plist";
 				OTHER_LDFLAGS = (
@@ -428,7 +422,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "FlyteParkDeviceTests/FlyteParkDeviceTests-Prefix.pch";
 				INFOPLIST_FILE = "FlyteParkDeviceTests/FlyteParkDeviceTests-Info.plist";
 				OTHER_LDFLAGS = (
