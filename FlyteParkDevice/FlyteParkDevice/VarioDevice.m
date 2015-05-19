@@ -1,6 +1,6 @@
 //
 //  VarioDevice.m
-//  MicrovarioProTestApp
+//  FlyteParkDevice
 //
 //  Created by Brian Vogel on 8/21/11.
 //  Copyright 2011 Techrhythm. All rights reserved.
@@ -209,13 +209,6 @@
     }
 }
 
-//clean up: TODO 
-/*
--(void) accessoryDidDisconnect:(NSNotification *)notification 
-{
-    
-    EAAccessory *connectedAccessory = [[notification userInfo] objectForKey:EAAccessoryKey];      
-}*/
 
 -(void) onStreamOpened
 {
@@ -436,65 +429,6 @@
     }
 
 }
-
-/*
--(void) onRealtimeData:(NSData *)data
-{
-    //NOTE: There should be a packet counter here but there may not be
-    const int RT_PACKET_SIZE=14;
-    
-    NSMutableArray* results = [[[NSMutableArray alloc ] init] autorelease];
-    
-    unsigned char* byteData = (unsigned char*) [data bytes];
-    unsigned char* count = byteData;
-    
-    VarioRealtimeData* realtimeData;
- 
-    
-    for (int i=0;i<[data length];i+=RT_PACKET_SIZE)
-    {
-         
-        realtimeData=[[[VarioRealtimeData alloc] init] autorelease];
-
-                
-        //realtimeData.altidue =  (*(int32_t*) (count+3)) >> 8; //only 24 bits needed, loose the last byte
-        [realtimeData setAltitude: 0x000000 | count[3] | count[4] << 8 | count[5] << 16];
-        [realtimeData setClimb: * (short int*) (count+6)];
-        [realtimeData setBatVoltage:  (*(short int*) (count+8)) /100 ];
-        [realtimeData setTemperature:  (*(short int*) (count+10)) / 100  ];
-        
-        //checksum not in iphone 
-        //counter 12/13
-        int packet =  *(short unsigned int*) (count+12);
-
-        
-        //TODO: re-enable this code.
-        if (true)//packet!=lastRealtimePacket)
-        {
-            [results addObject:realtimeData];
-            lastRealtimePacket = packet;
-        }
-        
-        if (i+RT_PACKET_SIZE<[data length])
-        {
-            count+=RT_PACKET_SIZE;
-        }
-        
-    }
-    
-    if( [results count]>0 &&  [[self delegate] respondsToSelector:@selector(realtimeDataReceived:)]) {
-        [[self delegate] realtimeDataReceived:results];
-    }
-    //TODO: handle realtime data
-    
-    //TODO: this code is copied from original USB code, which has an extra byte in the packet
-    //for the USB packet type
-    
-    //Altitude = 0x000000 | data[4] | data[5] << 8 | data[6] << 16;
-    //ClimbRate = (short)(0x0000 | data[7] | data[8] << 8);
-    //BatteryVoltagex100 = (short)(0x0000 | data[9] | data[10] << 8);
-
-}*/
 
 -(void) onOptions:(NSData *) data
 {

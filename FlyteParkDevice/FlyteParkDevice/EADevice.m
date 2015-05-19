@@ -1,6 +1,6 @@
 //
 //  EADevice.m
-//  MicrovarioProTestApp
+//  FlyteParkDevice
 //
 //  Created by Brian Vogel on 8/21/11.
 //  Copyright 2011 Techrhythm. All rights reserved.

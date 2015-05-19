@@ -1,6 +1,6 @@
 //
 //  VarioOptions.m
-//  MicrovarioProTestApp
+//  FlyteParkDevice
 //
 //  Created by Brian Vogel on 12/18/11.
 //  Copyright 2011 Techrhythm. All rights reserved.

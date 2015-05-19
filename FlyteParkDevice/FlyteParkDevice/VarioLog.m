@@ -1,6 +1,6 @@
 //
 //  VarioLog.m
-//  MicrovarioProTestApp
+//  FlyteParkDevice
 //
 //  Created by Brian Vogel on 12/18/11.
 //  Copyright 2011 Techrhythm. All rights reserved.
@@ -25,7 +25,7 @@
 {
     self = [super init];
     if (self) {
-        //trackPoints = [BinaryUtilit]
+        //TODO: convert data to trackpoints as in C# code 
         
         /*
         TrackPoints = BinaryUtility.BytesToInt(data[4], data[5], data[6], data[7]);
